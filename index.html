@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Shaheem PP - the.codeholic">
+    <meta name="description" content="Code, Community & Content :)">
+    <meta name="author" content="Shaheem PP">
+    <meta name="language" content="English">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.css">
+    <title>Links | the.codeholic</title>
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+    <style>
+        body {
+            /* background-image: url('Assets/images/background.jpg'); */
+            background-image: url('Assets/images/wwdcback.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 40px;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .profile-name {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-title {
+            font-size: 1.5rem;
+            color: #ddd;
+        }
+
+        .link-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            /* Removes underline from all anchor tags */
+            color: inherit;
+            /* Optional: Inherits the text color from the parent element */
+        }
+
+        .link-card {
+            color: #fff;
+            /* Set the default text color for links inside .link-card */
+        }
+
+        .link-card {
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 1rem;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .link-card:hover {
+            transform: scale(1.05);
+        }
+
+        .link-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .link-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .link-url {
+            font-size: 1rem;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body class="bg-dark p-5">
+    <div class="profile-header">
+        <img src="Assets/images/sLogo.svg" alt="" srcset="" style="height: 5rem;">
+        <h1 class="profile-name">Shaheem PP</h1>
+        <h2 class="profile-title">Developer</h2>
+    </div>
+    <div class="link-container">
+        <a href="https://shaheem.netlify.app/" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fas fa-globe"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                Personal Website
+            </div>
+        </a>
+        <a href="https://shaheem.netlify.app/Assets/Others/resume.pdf" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fas fa-paperclip"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                Resume
+            </div>
+        </a>
+        <a href="https://github.com/shaheem-pp/" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fab fa-github"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                GitHub
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/in/shaheem-pp/" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fab fa-linkedin"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                LinkedIn
+            </div>
+        </a>
+        <a href="https://www.youtube.com/c/ShaheemPP" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fab fa-youtube"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                YouTube
+            </div>
+        </a>
+        <a href="https://shaheem-pp.medium.com/" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fas fab fa-medium-m"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                Medium
+            </div>
+        </a>
+        <a href="https://www.instagram.com/the.codeholic" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fab fa-instagram"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                Instagram
+            </div>
+        </a>
+        <a href="https://twitter.com/the_codeholic" target="_blank" class="link-card hover-effect">
+            <i class="text-light link-icon fab fa-twitter"></i>
+            <div style="text-decoration: none !important;" class="text-light link-title">
+                x
+            </div>
+        </a>
+        <!-- Add more links as needed -->
+    </div>
+    <script src="fontawesome/js/all.js"></script>
+    <script src="fontawesome/js/brands.js"></script>
+    <script src="Assets/js/bootstrap.js"></script>
+</body>
+
+</html>
